@@ -21,11 +21,11 @@ double AmountofSale1=0, AmountofSale2=0, AmountofSale3=0, AmountofSale4=0, Amoun
 
 cout<<"Welcome to our restaurant !\n\n"
 cout<<":::::::::::::::::::MENU:::::::::::::::::::\n\n"
-     <<"\n Item[1] Veg Burger		    Rs.100 <===\n"
+     <<"\n Item[1] Veg Burger		            Rs.100 <===\n"
      <<"\n Item[2] Cheeze Pizza  		    Rs.150 <===\n"
-	 <<"\n Item[3] Veg Spring Rolls    Rs.80 <===\n"
-	 <<"\n Item[4] Grilled Sandwich		    Rs.120 <===\n"
-	 <<"\n Item[5] White Sauce Pazta		    Rs.200 <===\n";
+     <<"\n Item[3] Veg Spring Rolls             Rs.80 <===\n"
+     <<"\n Item[4] Grilled Sandwich		    Rs.120 <===\n"
+     <<"\n Item[5] White Sauce Pazta            Rs.200 <===\n";
 	 
 
          
@@ -42,7 +42,7 @@ switch(order)
                 
 				case 1:
                      
-                cout<<"\nHow Many Buffalo Wings Would You Like To Order:\n";
+                cout<<"\nHow Many Veg Burger Would You Like To Order:\n";
                                cin>>num1;
                 
                 AmountofSale1 = UnitPrice1 * num1;
@@ -52,7 +52,7 @@ switch(order)
           
                  
 				case 2: 
-                cout<<"\nHow Many Ham Burgers Would You Like To Order:\n";
+                cout<<"\nHow Many Cheeze Pizza Would You Like To Order:\n";
 				               cin>>num2;
                
                 AmountofSale2= UnitPrice2 * num2;
@@ -60,7 +60,7 @@ switch(order)
                 
                 
                 case 3: 
-                cout<<"\nHow Many Italian Sandwiches Would You Like To Order:\n";
+                cout<<"\nHow Many Veg Spring Roll Would You Like To Order:\n";
                                   cin>>num3;
                 
                 AmountofSale3= UnitPrice3 * num3;
@@ -69,7 +69,7 @@ switch(order)
                 
                  
                 case 4: 
-                cout<<"\nHow Many Shrimp Nuggets Would You Like To Order:\n";
+                cout<<"\nHow Many Grilled Sandwich Would You Like To Order:\n";
                                 cin>>num4;
                 
                 AmountofSale4= UnitPrice4 * num4;
@@ -78,7 +78,7 @@ switch(order)
                 
                 
                 case 5: 
-                cout<<"\nHow Many Would Veggie Supremes You Like To Order:\n";
+                cout<<"\nHow Many Would White Sauce Pazta You Like To Order:\n";
                                 cin>>num5;
                                 
                 
@@ -99,15 +99,15 @@ cout<<left<<setw(15)<<"ITEM"<<right<<setw(10)<<"QUANTITY"<<right<<setw(15)<<"UNI
 
 cout<<"===========================================================";
 
-cout<<"\nBuffalo Wings:\t"<<setw(6)<<left<< num1 <<setw(16)<<right<< UnitPrice1 <<setw(20) <<right<< AmountofSale1<<endl;
+cout<<"\nVeg Burger:\t"<<setw(6)<<left<< num1 <<setw(16)<<right<< UnitPrice1 <<setw(20) <<right<< AmountofSale1<<endl;
 
-cout<<"\nHam Burger:\t"<<setw(6)<<left<< num2 <<setw(16)<<right<< UnitPrice2 <<setw(20) <<right<< AmountofSale2<<endl<<endl;
+cout<<"\nCheeze Pizza:\t"<<setw(6)<<left<< num2 <<setw(16)<<right<< UnitPrice2 <<setw(20) <<right<< AmountofSale2<<endl<<endl;
 
-cout<<"Italian Sandwich:"<<setw(6)<<left<< num3 <<setw(15)<<right<< UnitPrice3 <<setw(20) <<right<< AmountofSale3<<endl<<endl;
+cout<<"Veg Spring Rolls:"<<setw(6)<<left<< num3 <<setw(15)<<right<< UnitPrice3 <<setw(20) <<right<< AmountofSale3<<endl<<endl;
 
-cout<<"Shrimp Nuggets:\t"<<setw(6)<<left<< num4 <<setw(16)<<right<< UnitPrice4 <<setw(20) <<right<< AmountofSale4<<endl<<endl;
+cout<<"Grilled Sandwich:\t"<<setw(6)<<left<< num4 <<setw(16)<<right<< UnitPrice4 <<setw(20) <<right<< AmountofSale4<<endl<<endl;
 
-cout<<"Veggie Supreme:\t"<<setw(6)<<left<< num5 <<setw(16)<<right<< UnitPrice5 <<setw(20) <<right<< AmountofSale5<<endl<<endl;
+cout<<"White Sauce Pazta:\t"<<setw(6)<<left<< num5 <<setw(16)<<right<< UnitPrice5 <<setw(20) <<right<< AmountofSale5<<endl<<endl;
 }
               }
 
